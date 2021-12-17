@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Andrew Woll's Personal Website</title>
+	<style>
+	.topnav {
+		overflow: hidden;
+		background-color: #333;
+	}
+
+	.topnav a {
+		float: left;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+	}
+
+	.topnav a:hover {
+		background-color: #ddd;
+		color: black;
+	}
+
+	.topnav a.active {
+		background-color: grey;
+		color: white;
+	}
+	body {
+		background-color:#0062cc;
+		font-family:verdana;
+		}
+	p {
+		width:75%;
+		}
+	div[style="background-image:url(backgroundImage.jpg)"] {
+		background-size: cover;
+		}
+	div[style="background-image:url(backgroundImage2.jpg)"] {
+		background-size: cover;
+		}
+	* {
+	  box-sizing: border-box;
+	}
+
+	.zoom {
+	  transition: transform .2s;
+	  width: 700px;
+	  margin: 0 auto;
+	}
+
+	.zoom:hover {
+	  -ms-transform: scale(1.5); /* IE 9 */
+	  -webkit-transform: scale(1.5); /* Safari 3-8 */
+	  transform: scale(1.5); 
+	}
+	div.polaroid {
+	  width: 80%;
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	  margin-bottom: 25px;
+	}
+
+	div.container {
+	  text-align: center;
+	  padding: 20px 20px;
+	}
+	.button {
+	  background-color: #0062cc
+	  border: #0062cc;
+	  color: black;
+	  padding: 16px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	  margin: 4px 2px;
+	  transition-duration: 0.4s;
+	  cursor: pointer;
+	}
+	.button2:hover {
+	  background-color: #0062cc;
+	  color: white;
+	}
+	.footer {
+	  background-color: #f1f1f1;
+	  padding: 10px;
+	  text-align: center;
+	}
+	</style>
+</head>
+<body>
+	<div class="top" style="background-image:url(backgroundImage.jpg)">
+		<div>
+		<table>
+			<tr>
+			<th><img id="profile-picture" src="images\myPic.jpg" width="250"></th>
+			<th style="width:340px"></th>
+			<th style="color:white">	
+				<h1>Andrew Woll</h1>
+				<h3>Applied Software Engineering Student</h3>
+			</th>
+			<th style="width: 475px; color: white; font-size:large;" valign="left"><h1>PORTFOLIO</h1></th>
+			</tr>
+		</table>
+		</div>
+		<nav>
+			<div class="topnav">
+			<a href="index.html">Home</a>
+			<a href="experiences.html">Experiences</a>
+			<a class="active" href="portfolio.html">Portfolio</a>
+			<a href="passions.html">My Passions</a>
+			<a href="contact.html">Contact</a>
+			</div>
+		</nav>
+	</div>
+	<div class="bottom" style="background-image:url(backgroundImage2.jpg)">
+	<br>
+    <div style="text-indent:10px">
+	<h3 style="text-indent:20px">Technical Writing on the Software Development Lifecycle<span style="padding-left:20px"><button class="button button2" onclick="https://docs.google.com/document/d/1tffHW6ugTcZ29VhkzLxbrBDx6iKLEg7d/edit">Google Docs Link</button></span></h3>
+	
+	<table>
+		<tr>
+			<th  valign="top"><h3 style="text-indent:20px; padding-top:30px">Frisch's Social Media Posts</h3></th>
+			<td>
+				<table>
+					<tr>
+						<td>
+							<div class="polaroid zoom">
+							<img src="images\frischs.png" alt="frischs" style="width:100%">
+							<div class="container">
+							<p>Frisch's National Limerick Day</p>
+							</div>
+							</div>
+						</td>
+						<td>
+							<div class="polaroid zoom" style="padding-right:20px">
+							<img src="images\frischs2.png" alt="frischs2" style="width:100%">
+							<div class="container">
+							<p>Frisch's National 'No Dirty Dishes' Day</p>
+							</div>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<br />
+		<tr>
+			<th  valign="top"><h3 style="text-indent:20px; padding-top:30px">Curly's Advertising</h3></th>
+			<td>
+				<div class="polaroid zoom" style="width: 400px; float:left;">
+				<img src="images\curlys.jpg" alt="frischs2" style="width:100%">
+				<div class="container">
+				<p>Curly's Email Blast</p>
+				</div>
+				</div>
+			</td>
+			</tr>	
+	</table>
+	<br />
+	<br />
+	</div>
+	</div>
+	<div class="footer">
+		<footer>Contact at <a href = "mailto: wolla2@nku.edu">wolla2@nku.edu</a></footer>
+	</div>
+	</body>
+</html>
